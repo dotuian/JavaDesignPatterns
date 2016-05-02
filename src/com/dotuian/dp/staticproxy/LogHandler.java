@@ -1,10 +1,10 @@
 package com.dotuian.dp.staticproxy;
 
-public class LogHanlder implements Movable {
+public class LogHandler implements Movable {
 
     private Movable m;
 
-    public LogHanlder(Movable m) {
+    public LogHandler(Movable m) {
         this.m = m;
     }
 

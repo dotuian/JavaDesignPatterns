@@ -2,11 +2,11 @@ package com.dotuian.dp.staticproxy;
 
 import java.util.Date;
 
-public class TimeHanlder implements Movable {
+public class TimeHandler implements Movable {
 
     private Movable m;
 
-    public TimeHanlder(Movable m) {
+    public TimeHandler(Movable m) {
         this.m = m;
     }
 
