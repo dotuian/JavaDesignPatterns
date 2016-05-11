@@ -3,11 +3,11 @@ package com.dotuian.dp.observer.jdk;
 import java.util.Observable;
 import java.util.Observer;
 
-public class Watcher implements Observer {
+public class Watcher1 implements Observer {
 
     @Override
     public void update(Observable o, Object arg) {
-        System.out.println("==== update ==== ");
+        System.out.println("==== 观察者1 ==== ");
 
         if (arg instanceof Watched) {
             Watched w1 = (Watched) arg;
